@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+  
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+  
+#gameboard div {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+  
+#game-controls {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-controls input {
+    width: 70%;
+    margin-bottom: 7px;
+    padding: 5px;
+}
+  
+button {
+    padding: 10px 20px;
+    margin: 7px;
+    margin: 7px 7px 0 7px;
+    cursor: pointer;
+}
+
+#game-result {
+    margin-top: -5px;
+}
