@@ -9,7 +9,7 @@ Welcome to the Tic-Tac-Toe game! This project is a simple implementation of the 
 - [Usage](#usage)
 - [Code Structure](#code-structure)
 - [Contributing](#contributing)
-- [License](#license)
+- [Acknowledgement](#acknowledgement)
 
 ## Features
 
@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/yourusername/tic-tac-toe.git
+    git clone https://github.com/yourusername/tic-tac-toe.git
 ```
 
 2. Navigate to the project directory:
